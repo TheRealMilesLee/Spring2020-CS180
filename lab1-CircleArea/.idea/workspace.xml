@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cfd8b9d-0418-41d9-96cd-614d63a7a9e1" name="Default Changelist" comment="" />
+    <list default="true" id="5cfd8b9d-0418-41d9-96cd-614d63a7a9e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,10 +23,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="lNFyAfRi" />
   </component>
   <component name="ProjectId" id="1WS1TrJPE2fHEsFW95hju7gYStT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,7 +39,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RunManager">
     <configuration name="lab1_CircleArea" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab1_CircleArea" TARGET_NAME="lab1_CircleArea" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab1_CircleArea" RUN_TARGET_NAME="lab1_CircleArea">
@@ -68,6 +80,9 @@
       <workItem from="1579128343555" duration="165000" />
       <workItem from="1579128566672" duration="18000" />
       <workItem from="1579128596866" duration="37000" />
+      <workItem from="1579128817510" duration="24000" />
+      <workItem from="1579141569555" duration="366000" />
+      <workItem from="1579153224617" duration="16000" />
     </task>
     <servers />
   </component>
@@ -91,9 +106,9 @@
       <screen x="0" y="23" width="1680" height="996" />
     </state>
     <state width="1462" height="217" key="GridCell.Tab.0.right/0.23.1680.996@0.23.1680.996" timestamp="1579128632950" />
-    <state x="289" y="188" key="SettingsEditor" timestamp="1579128583820">
+    <state x="289" y="188" key="SettingsEditor" timestamp="1579128839938">
       <screen x="0" y="23" width="1680" height="996" />
     </state>
-    <state x="289" y="188" key="SettingsEditor/0.23.1680.996@0.23.1680.996" timestamp="1579128583820" />
+    <state x="289" y="188" key="SettingsEditor/0.23.1680.996@0.23.1680.996" timestamp="1579128839938" />
   </component>
 </project>
