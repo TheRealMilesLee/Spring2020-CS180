@@ -1,5 +1,5 @@
 //Hengyi Li
-// find out the secret password
+//find out the secret password
 //This code done by Hengyi Li at 10:51 AM 21th Jan, 2020
 //Copyright Hengyi Li
 
