@@ -14,7 +14,7 @@ int main()
 
   /* variable names with initial value, these values are imortant */
   char First_Letter = 66, Second_Letter = 83, Third_Letter = 65,
-    Last_Letter =73;
+  Last_Letter =73;
 
 
   cout << "Once upon a time, there was a ";
