@@ -48,10 +48,10 @@ RM = "/Users/leemiles/Library/Application Support/JetBrains/Toolbox/apps/CLion/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/leemiles/Spring2020-CS180/Lab3-Circle
+CMAKE_SOURCE_DIR = /Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/CMakeFiles /Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/CMakeFiles /Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lab3_Circle
+# Target rules for targets named Lab3_FarhenhitToCelsius
 
 # Build rule for target.
-Lab3_Circle: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Lab3_Circle
-.PHONY : Lab3_Circle
+Lab3_FarhenhitToCelsius: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lab3_FarhenhitToCelsius
+.PHONY : Lab3_FarhenhitToCelsius
 
 # fast build rule for target.
-Lab3_Circle/fast:
-	$(MAKE) -f CMakeFiles/Lab3_Circle.dir/build.make CMakeFiles/Lab3_Circle.dir/build
-.PHONY : Lab3_Circle/fast
+Lab3_FarhenhitToCelsius/fast:
+	$(MAKE) -f CMakeFiles/Lab3_FarhenhitToCelsius.dir/build.make CMakeFiles/Lab3_FarhenhitToCelsius.dir/build
+.PHONY : Lab3_FarhenhitToCelsius/fast
 
 Fahrenheit_Celsius.o: Fahrenheit_Celsius.cpp.o
 
@@ -129,7 +129,7 @@ Fahrenheit_Celsius.o: Fahrenheit_Celsius.cpp.o
 
 # target to build an object file
 Fahrenheit_Celsius.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab3_Circle.dir/build.make CMakeFiles/Lab3_Circle.dir/Fahrenheit_Celsius.cpp.o
+	$(MAKE) -f CMakeFiles/Lab3_FarhenhitToCelsius.dir/build.make CMakeFiles/Lab3_FarhenhitToCelsius.dir/Fahrenheit_Celsius.cpp.o
 .PHONY : Fahrenheit_Celsius.cpp.o
 
 Fahrenheit_Celsius.i: Fahrenheit_Celsius.cpp.i
@@ -138,7 +138,7 @@ Fahrenheit_Celsius.i: Fahrenheit_Celsius.cpp.i
 
 # target to preprocess a source file
 Fahrenheit_Celsius.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab3_Circle.dir/build.make CMakeFiles/Lab3_Circle.dir/Fahrenheit_Celsius.cpp.i
+	$(MAKE) -f CMakeFiles/Lab3_FarhenhitToCelsius.dir/build.make CMakeFiles/Lab3_FarhenhitToCelsius.dir/Fahrenheit_Celsius.cpp.i
 .PHONY : Fahrenheit_Celsius.cpp.i
 
 Fahrenheit_Celsius.s: Fahrenheit_Celsius.cpp.s
@@ -147,7 +147,7 @@ Fahrenheit_Celsius.s: Fahrenheit_Celsius.cpp.s
 
 # target to generate assembly for a file
 Fahrenheit_Celsius.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab3_Circle.dir/build.make CMakeFiles/Lab3_Circle.dir/Fahrenheit_Celsius.cpp.s
+	$(MAKE) -f CMakeFiles/Lab3_FarhenhitToCelsius.dir/build.make CMakeFiles/Lab3_FarhenhitToCelsius.dir/Fahrenheit_Celsius.cpp.s
 .PHONY : Fahrenheit_Celsius.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Lab3_Circle"
+	@echo "... Lab3_FarhenhitToCelsius"
 	@echo "... Fahrenheit_Celsius.o"
 	@echo "... Fahrenheit_Celsius.i"
 	@echo "... Fahrenheit_Celsius.s"

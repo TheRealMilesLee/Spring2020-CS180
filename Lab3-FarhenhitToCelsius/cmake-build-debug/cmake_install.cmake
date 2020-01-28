@@ -1,4 +1,4 @@
-# Install script for directory: /Users/leemiles/Spring2020-CS180/Lab3-Circle
+# Install script for directory: /Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

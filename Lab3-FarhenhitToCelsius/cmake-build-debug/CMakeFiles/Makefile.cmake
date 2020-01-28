@@ -52,5 +52,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Lab3_Circle.dir/DependInfo.cmake"
+  "CMakeFiles/Lab3_FarhenhitToCelsius.dir/DependInfo.cmake"
   )

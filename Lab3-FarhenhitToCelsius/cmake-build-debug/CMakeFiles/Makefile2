@@ -44,21 +44,21 @@ RM = "/Users/leemiles/Library/Application Support/JetBrains/Toolbox/apps/CLion/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/leemiles/Spring2020-CS180/Lab3-Circle
+CMAKE_SOURCE_DIR = /Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Lab3_Circle.dir/all
+all: CMakeFiles/Lab3_FarhenhitToCelsius.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Lab3_Circle.dir/clean
+clean: CMakeFiles/Lab3_FarhenhitToCelsius.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Lab3_Circle.dir
+# Target rules for target CMakeFiles/Lab3_FarhenhitToCelsius.dir
 
 # All Build rule for target.
-CMakeFiles/Lab3_Circle.dir/all:
-	$(MAKE) -f CMakeFiles/Lab3_Circle.dir/build.make CMakeFiles/Lab3_Circle.dir/depend
-	$(MAKE) -f CMakeFiles/Lab3_Circle.dir/build.make CMakeFiles/Lab3_Circle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Lab3_Circle"
-.PHONY : CMakeFiles/Lab3_Circle.dir/all
+CMakeFiles/Lab3_FarhenhitToCelsius.dir/all:
+	$(MAKE) -f CMakeFiles/Lab3_FarhenhitToCelsius.dir/build.make CMakeFiles/Lab3_FarhenhitToCelsius.dir/depend
+	$(MAKE) -f CMakeFiles/Lab3_FarhenhitToCelsius.dir/build.make CMakeFiles/Lab3_FarhenhitToCelsius.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Lab3_FarhenhitToCelsius"
+.PHONY : CMakeFiles/Lab3_FarhenhitToCelsius.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Lab3_Circle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Lab3_Circle.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Lab3_Circle.dir/rule
+CMakeFiles/Lab3_FarhenhitToCelsius.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Lab3_FarhenhitToCelsius.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Lab3_FarhenhitToCelsius.dir/rule
 
 # Convenience name for target.
-Lab3_Circle: CMakeFiles/Lab3_Circle.dir/rule
+Lab3_FarhenhitToCelsius: CMakeFiles/Lab3_FarhenhitToCelsius.dir/rule
 
-.PHONY : Lab3_Circle
+.PHONY : Lab3_FarhenhitToCelsius
 
 # clean rule for target.
-CMakeFiles/Lab3_Circle.dir/clean:
-	$(MAKE) -f CMakeFiles/Lab3_Circle.dir/build.make CMakeFiles/Lab3_Circle.dir/clean
-.PHONY : CMakeFiles/Lab3_Circle.dir/clean
+CMakeFiles/Lab3_FarhenhitToCelsius.dir/clean:
+	$(MAKE) -f CMakeFiles/Lab3_FarhenhitToCelsius.dir/build.make CMakeFiles/Lab3_FarhenhitToCelsius.dir/clean
+.PHONY : CMakeFiles/Lab3_FarhenhitToCelsius.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug"/>
+				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug"/>
+				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug"/>
+				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Lab3_Circle">
-				<Option output="/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Lab3_Circle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug"/>
+			<Target title="Lab3_FarhenhitToCelsius">
+				<Option output="/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Lab3_FarhenhitToCelsius" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab3_Circle"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab3_FarhenhitToCelsius"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Lab3_Circle/fast">
-				<Option output="/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Lab3_Circle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug"/>
+			<Target title="Lab3_FarhenhitToCelsius/fast">
+				<Option output="/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Lab3_FarhenhitToCelsius" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,17 +73,17 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab3_Circle/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-Circle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab3_FarhenhitToCelsius/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leemiles/Spring2020-CS180/Lab3-Circle/Fahrenheit_Celsius.cpp">
-			<Option target="Lab3_Circle"/>
+		<Unit filename="/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/Fahrenheit_Celsius.cpp">
+			<Option target="Lab3_FarhenhitToCelsius"/>
 		</Unit>
-		<Unit filename="/Users/leemiles/Spring2020-CS180/Lab3-Circle/CMakeLists.txt">
+		<Unit filename="/Users/leemiles/Spring2020-CS180/Lab3-FarhenhitToCelsius/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
