@@ -1,5 +1,5 @@
 # Truman CS180 Course
-![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)(https://github.com/ellerbrockopen-source-badges/)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg"></a>
 <a href="https://img.shields.io"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg"></a> 
 <a href="https://img.shields.io"><img src="https://img.shields.io/badge/C++-Learing-red.svg"></a>
