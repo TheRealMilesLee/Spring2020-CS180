@@ -16,6 +16,8 @@ Recommend IDE: CLion & VS Code
 
 [Lab2-SecretPassword](https://github.com/TheRealMilesLee/Spring2020-CS180/tree/master/lab2-Secret)This is lab2, this lab is to find out the secret password.
 
+[Lab3-FahrenheitToCelsius]()
+
 # External Link
 
 About Dr.Rahman: https://www.truman.edu/faculty-staff/kafi/
