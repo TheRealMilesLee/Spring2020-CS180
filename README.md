@@ -16,7 +16,9 @@ Recommend IDE: CLion & VS Code
 
 [Lab2-SecretPassword](https://github.com/TheRealMilesLee/Spring2020-CS180/tree/master/lab2-Secret)This is lab2, this lab is to find out the secret password.
 
-[Lab3-FahrenheitToCelsius]()
+[Lab3-FahrenheitToCelsius](https://github.com/TheRealMilesLee/Spring2020-CS180/tree/master/Lab3-FarhenhitToCelsius) This is Lab3A, this lab is to to compute the Celsius equivalents of two Fahrenheit temperature values.
+
+[Lab3B-CircleDCA](https://github.com/TheRealMilesLee/Spring2020-CS180/tree/master/Lab3B-CircleDCA) This is Lab3B, this lab is to to calculate and display on screen the correct diameter, circumference, and area of a circle radius value.
 
 # External Link
 
