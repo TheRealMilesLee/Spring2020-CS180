@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab4B_Restaurant_Bill"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab4B_Restaurant_Bill">
+				<Option output="/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Lab4B_Restaurant_Bill" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4B_Restaurant_Bill"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab4B_Restaurant_Bill/fast">
+				<Option output="/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Lab4B_Restaurant_Bill" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4B_Restaurant_Bill/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/Restaurant.cpp">
+			<Option target="Lab4B_Restaurant_Bill"/>
+		</Unit>
+		<Unit filename="/Users/leemiles/Spring2020-CS180/Lab4B-Restaurant-Bill/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
