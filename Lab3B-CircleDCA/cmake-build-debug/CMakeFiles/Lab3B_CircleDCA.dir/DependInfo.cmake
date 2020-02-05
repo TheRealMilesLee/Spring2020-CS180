@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/leemiles/Spring2020-CS180/Lab3B-CircleDCA/circle_calculations.cpp" "/Users/leemiles/Spring2020-CS180/Lab3B-CircleDCA/cmake-build-debug/CMakeFiles/Lab3B_CircleDCA.dir/circle_calculations.cpp.o"
+  "D:/Spring2020-CS180/Lab3B-CircleDCA/circle_calculations.cpp" "D:/Spring2020-CS180/Lab3B-CircleDCA/cmake-build-debug/CMakeFiles/Lab3B_CircleDCA.dir/circle_calculations.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
