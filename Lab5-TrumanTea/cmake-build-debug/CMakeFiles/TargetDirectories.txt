@@ -1,0 +1,3 @@
+/Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/cmake-build-debug/CMakeFiles/Lab5_TrumanTea.dir
