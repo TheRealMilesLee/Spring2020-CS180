@@ -57,27 +57,27 @@ include CMakeFiles/Lab5_TrumanTea.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab5_TrumanTea.dir/flags.make
 
-CMakeFiles/Lab5_TrumanTea.dir/main.cpp.o: CMakeFiles/Lab5_TrumanTea.dir/flags.make
-CMakeFiles/Lab5_TrumanTea.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab5_TrumanTea.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab5_TrumanTea.dir/main.cpp.o -c /Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/main.cpp
+CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.o: CMakeFiles/Lab5_TrumanTea.dir/flags.make
+CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.o: ../Tea.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.o -c /Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/Tea.cpp
 
-CMakeFiles/Lab5_TrumanTea.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab5_TrumanTea.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/main.cpp > CMakeFiles/Lab5_TrumanTea.dir/main.cpp.i
+CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/Tea.cpp > CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.i
 
-CMakeFiles/Lab5_TrumanTea.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab5_TrumanTea.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/main.cpp -o CMakeFiles/Lab5_TrumanTea.dir/main.cpp.s
+CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/Tea.cpp -o CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.s
 
 # Object files for target Lab5_TrumanTea
 Lab5_TrumanTea_OBJECTS = \
-"CMakeFiles/Lab5_TrumanTea.dir/main.cpp.o"
+"CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.o"
 
 # External object files for target Lab5_TrumanTea
 Lab5_TrumanTea_EXTERNAL_OBJECTS =
 
-Lab5_TrumanTea: CMakeFiles/Lab5_TrumanTea.dir/main.cpp.o
+Lab5_TrumanTea: CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.o
 Lab5_TrumanTea: CMakeFiles/Lab5_TrumanTea.dir/build.make
 Lab5_TrumanTea: CMakeFiles/Lab5_TrumanTea.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lab5_TrumanTea"

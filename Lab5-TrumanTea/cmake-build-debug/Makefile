@@ -123,32 +123,32 @@ Lab5_TrumanTea/fast:
 	$(MAKE) -f CMakeFiles/Lab5_TrumanTea.dir/build.make CMakeFiles/Lab5_TrumanTea.dir/build
 .PHONY : Lab5_TrumanTea/fast
 
-main.o: main.cpp.o
+Tea.o: Tea.cpp.o
 
-.PHONY : main.o
+.PHONY : Tea.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab5_TrumanTea.dir/build.make CMakeFiles/Lab5_TrumanTea.dir/main.cpp.o
-.PHONY : main.cpp.o
+Tea.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab5_TrumanTea.dir/build.make CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.o
+.PHONY : Tea.cpp.o
 
-main.i: main.cpp.i
+Tea.i: Tea.cpp.i
 
-.PHONY : main.i
+.PHONY : Tea.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab5_TrumanTea.dir/build.make CMakeFiles/Lab5_TrumanTea.dir/main.cpp.i
-.PHONY : main.cpp.i
+Tea.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab5_TrumanTea.dir/build.make CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.i
+.PHONY : Tea.cpp.i
 
-main.s: main.cpp.s
+Tea.s: Tea.cpp.s
 
-.PHONY : main.s
+.PHONY : Tea.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab5_TrumanTea.dir/build.make CMakeFiles/Lab5_TrumanTea.dir/main.cpp.s
-.PHONY : main.cpp.s
+Tea.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab5_TrumanTea.dir/build.make CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.s
+.PHONY : Tea.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Lab5_TrumanTea"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Tea.o"
+	@echo "... Tea.i"
+	@echo "... Tea.s"
 .PHONY : help
 
 

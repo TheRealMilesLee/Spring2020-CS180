@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/main.cpp" "/Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/cmake-build-debug/CMakeFiles/Lab5_TrumanTea.dir/main.cpp.o"
+  "/Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/Tea.cpp" "/Users/leemiles/Spring2020-CS180/Lab5-TrumanTea/cmake-build-debug/CMakeFiles/Lab5_TrumanTea.dir/Tea.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
