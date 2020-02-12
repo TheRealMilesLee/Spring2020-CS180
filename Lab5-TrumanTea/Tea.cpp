@@ -15,6 +15,7 @@ int main()
   const unsigned LABEL_WIDTH_Twinings = 14;
   const unsigned LABEL_WIDTH_Tetley = 12;
   const unsigned LABEL_WIDTH_Lipton = 12;
+  const unsigned LABEL_WIDTH_BONUS = 10;
 
   const int MAX_BONUS = 5;
   const int MIN_BONUS = 1;
@@ -64,11 +65,11 @@ int main()
   cout << "Amount        "  << setw(LABEL_WIDTH_Twinings) << Amount_Twinings
        << setw(LABEL_WIDTH_Tetley) << Amount_Tetley << setw(LABEL_WIDTH_Lipton)
        << Amount_Lipton << endl;
-  cout << endl << "Total:          " << setw(LABEL_WIDTH_Twinings)
+  cout << endl << "Total:          " << setw(LABEL_WIDTH_Tetley)
        << total << endl;
-  cout << "Bonus Dicount:" << setw(LABEL_WIDTH_Tetley) << "-"
+  cout << "Bonus Dicount:" << setw(LABEL_WIDTH_BONUS) << "-"
        << bonus_discount << endl;
-  cout << "Grand Total:    " << setw(LABEL_WIDTH_Twinings)
+  cout << "Grand Total:    " << setw(LABEL_WIDTH_Tetley)
        << Grand_Total << endl;
 
   cout << endl << "Thank you for ordering!" << endl;
