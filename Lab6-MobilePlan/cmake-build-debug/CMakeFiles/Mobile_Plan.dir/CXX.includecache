@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leemiles/Spring2020-CS180/Lab6-MobilePlan/Phone_Plan.cpp
+cstdlib
+-
+ctime
+-
+iomanip
+-
+iostream
+-
+
