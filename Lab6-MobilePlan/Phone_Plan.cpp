@@ -37,7 +37,7 @@ int main()
     double data_a;
     if(data_usage <= DATA_PLAN_A)
     {
-     data_a = 0;
+     data_a = 0.0;
     }
     else
     {
@@ -58,7 +58,7 @@ int main()
     double data_b;
     if(data_usage <= DATA_PLAN_B)
     {
-      data_b = 0;
+      data_b = 0.0;
     }
     else
     {
