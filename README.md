@@ -20,6 +20,19 @@ Recommend IDE: CLion & VS Code
 
 [Lab3B-CircleDCA](https://github.com/TheRealMilesLee/Spring2020-CS180/tree/master/Lab3B-CircleDCA) This is Lab3B, this lab is to to calculate and display on screen the correct diameter, circumference, and area of a circle radius value.
 
+[Lab4-Travel](https://github.com/TheRealMilesLee/Spring2020-CS180/tree/master/Lab4-Travel) This is Lab4, this lab is to calculate the MPG
+
+[Lab4B-Restaurant-Bill](https://github.com/TheRealMilesLee/Spring2020-CS180/tree/master/Lab4B-Restaurant-Bill) This is Lab4B, this lab is to calculate the bill of the restaurant.
+
+[Lab5_TrumanTea](https://github.com/TheRealMilesLee/Spring2020-CS180/tree/master/Lab5-TrumanTea) This is Lab5, this lab is to calculate the price of the order
+
+[Lab6-MobilePlan](https://github.com/TheRealMilesLee/Spring2020-CS180/tree/master/Lab6-MobilePlan) This is Lab6, this lab is to decide the phone plan
+
+[Lab7-Loop](https://github.com/TheRealMilesLee/Spring2020-CS180/tree/master/Lab7-Loop) This is Lab7, this lab is to do the loop printout.
+
+[Lab8-Loops](https://github.com/TheRealMilesLee/Spring2020-CS180/tree/master/Lab8-Loops) This is Lab8, this lab is to to calculate the factorial of n and calculate the power of n.
+
+
 # External Link
 
 About Dr.Rahman: https://www.truman.edu/faculty-staff/kafi/
