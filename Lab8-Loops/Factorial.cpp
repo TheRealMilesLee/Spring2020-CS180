@@ -25,8 +25,7 @@ int main()
     unsigned factorial = 1;
     for (unsigned looptimes = 0; looptimes <= numbers + 1; looptimes++)
     {
-      factorial *= numbers;
-      numbers--;
+      factorial *= looptimes;
     }
 
     //print out the result
