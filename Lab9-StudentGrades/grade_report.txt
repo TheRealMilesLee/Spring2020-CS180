@@ -1,0 +1,5 @@
+Student Name                Total       Avg          Grade
+Biddy Mason                 526         87.67         B
+Georgia Jackson             399         66.50         D
+Mary Anning                 548         91.33         A
+Ada Smith                   476         79.33         C
