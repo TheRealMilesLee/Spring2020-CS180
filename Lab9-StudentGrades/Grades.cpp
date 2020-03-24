@@ -19,7 +19,7 @@ int main()
   const double C_GRADE = 70.0;
   const double D_GRADE = 60.0;
   ifstream infile;
-  string filename= "scores.txt";
+  string filename= "../scores.txt";
 
   // open the file in read mode
   infile.open(filename);
@@ -35,7 +35,7 @@ int main()
 
     //output preparation
     ofstream output_file;
-    output_file.open("grade_report.txt");
+    output_file.open("../grade_report.txt");
 
     //Formatting output
     output_file << "Student Name" << setw(WIDTH)
