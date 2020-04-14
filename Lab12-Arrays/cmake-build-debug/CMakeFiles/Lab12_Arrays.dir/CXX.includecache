@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leemiles/Spring2020-CS180/Lab12-Arrays/Parallel_Array.cpp
+iostream
+-
+cstdlib
+-
+iomanip
+-
+fstream
+-
+
