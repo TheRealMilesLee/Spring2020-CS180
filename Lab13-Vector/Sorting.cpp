@@ -39,6 +39,12 @@ void input_random_values(vector<int> &values, int size);
 void count_even_odd_values(vector<int> &values, int &odd_count, int &even_count);
 
 /**
+ * This function is to get the max and min numbers
+ * @param values is the vector we need to find
+ * @return the max and min value
+ */
+unsigned max_and_min_numbers(const vector<int> &values);
+/**
  * This function display all the values of the vector
  * @param values is the vector that contains all values
  * @param odd_count is the odd values
@@ -54,20 +60,21 @@ int main()
 
   vector<int> my_values;
   input_random_values(my_values, number_of_values);
-
   selection_sort(my_values);
 
   int odd_count;
   int even_count;
   count_even_odd_values(my_values, odd_count, even_count);
+  max_and_min_numbers (my_values);
   display (my_values, odd_count, even_count);
   return 0;
 }
 
 int get_rand_in_range(int low_limit, int high_limit)
 {
-  srand(time(nullptr));
-  int random_number = low_limit + rand() % (high_limit - low_limit + 1);
+  int seed = (time(nullptr));
+  srand(seed);
+  int random_number = rand() % (high_limit - low_limit + 1) + low_limit;
   return random_number;
 }
 
