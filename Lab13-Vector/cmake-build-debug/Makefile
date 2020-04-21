@@ -123,32 +123,32 @@ Lab13_Vector/fast:
 	$(MAKE) -f CMakeFiles/Lab13_Vector.dir/build.make CMakeFiles/Lab13_Vector.dir/build
 .PHONY : Lab13_Vector/fast
 
-main.o: main.cpp.o
+Sorting.o: Sorting.cpp.o
 
-.PHONY : main.o
+.PHONY : Sorting.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab13_Vector.dir/build.make CMakeFiles/Lab13_Vector.dir/main.cpp.o
-.PHONY : main.cpp.o
+Sorting.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab13_Vector.dir/build.make CMakeFiles/Lab13_Vector.dir/Sorting.cpp.o
+.PHONY : Sorting.cpp.o
 
-main.i: main.cpp.i
+Sorting.i: Sorting.cpp.i
 
-.PHONY : main.i
+.PHONY : Sorting.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab13_Vector.dir/build.make CMakeFiles/Lab13_Vector.dir/main.cpp.i
-.PHONY : main.cpp.i
+Sorting.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab13_Vector.dir/build.make CMakeFiles/Lab13_Vector.dir/Sorting.cpp.i
+.PHONY : Sorting.cpp.i
 
-main.s: main.cpp.s
+Sorting.s: Sorting.cpp.s
 
-.PHONY : main.s
+.PHONY : Sorting.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab13_Vector.dir/build.make CMakeFiles/Lab13_Vector.dir/main.cpp.s
-.PHONY : main.cpp.s
+Sorting.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab13_Vector.dir/build.make CMakeFiles/Lab13_Vector.dir/Sorting.cpp.s
+.PHONY : Sorting.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Lab13_Vector"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Sorting.o"
+	@echo "... Sorting.i"
+	@echo "... Sorting.s"
 .PHONY : help
 
 

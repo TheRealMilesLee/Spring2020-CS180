@@ -57,27 +57,27 @@ include CMakeFiles/Lab13_Vector.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab13_Vector.dir/flags.make
 
-CMakeFiles/Lab13_Vector.dir/main.cpp.o: CMakeFiles/Lab13_Vector.dir/flags.make
-CMakeFiles/Lab13_Vector.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leemiles/Spring2020-CS180/Lab13-Vector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab13_Vector.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab13_Vector.dir/main.cpp.o -c /Users/leemiles/Spring2020-CS180/Lab13-Vector/main.cpp
+CMakeFiles/Lab13_Vector.dir/Sorting.cpp.o: CMakeFiles/Lab13_Vector.dir/flags.make
+CMakeFiles/Lab13_Vector.dir/Sorting.cpp.o: ../Sorting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leemiles/Spring2020-CS180/Lab13-Vector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab13_Vector.dir/Sorting.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab13_Vector.dir/Sorting.cpp.o -c /Users/leemiles/Spring2020-CS180/Lab13-Vector/Sorting.cpp
 
-CMakeFiles/Lab13_Vector.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab13_Vector.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leemiles/Spring2020-CS180/Lab13-Vector/main.cpp > CMakeFiles/Lab13_Vector.dir/main.cpp.i
+CMakeFiles/Lab13_Vector.dir/Sorting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab13_Vector.dir/Sorting.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leemiles/Spring2020-CS180/Lab13-Vector/Sorting.cpp > CMakeFiles/Lab13_Vector.dir/Sorting.cpp.i
 
-CMakeFiles/Lab13_Vector.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab13_Vector.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leemiles/Spring2020-CS180/Lab13-Vector/main.cpp -o CMakeFiles/Lab13_Vector.dir/main.cpp.s
+CMakeFiles/Lab13_Vector.dir/Sorting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab13_Vector.dir/Sorting.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leemiles/Spring2020-CS180/Lab13-Vector/Sorting.cpp -o CMakeFiles/Lab13_Vector.dir/Sorting.cpp.s
 
 # Object files for target Lab13_Vector
 Lab13_Vector_OBJECTS = \
-"CMakeFiles/Lab13_Vector.dir/main.cpp.o"
+"CMakeFiles/Lab13_Vector.dir/Sorting.cpp.o"
 
 # External object files for target Lab13_Vector
 Lab13_Vector_EXTERNAL_OBJECTS =
 
-Lab13_Vector: CMakeFiles/Lab13_Vector.dir/main.cpp.o
+Lab13_Vector: CMakeFiles/Lab13_Vector.dir/Sorting.cpp.o
 Lab13_Vector: CMakeFiles/Lab13_Vector.dir/build.make
 Lab13_Vector: CMakeFiles/Lab13_Vector.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/leemiles/Spring2020-CS180/Lab13-Vector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lab13_Vector"

@@ -39,21 +39,17 @@ void input_random_values(vector<int> &values, int size);
 void count_even_odd_values(vector<int> &values, int &odd_count, int &even_count);
 
 /**
- * This function is to get the max and min numbers
- * @param values is the vector we need to find
- * @return the max and min value
- */
-unsigned max_and_min_numbers(const vector<int> &values);
-/**
  * This function display all the values of the vector
  * @param values is the vector that contains all values
  * @param odd_count is the odd values
  * @param even_count is the even values
  */
-void display(const vector<int> &values, int odd_count, int even_count);
+void display(const vector<int> &values, int &odd_count, int &even_count);
 
 int main()
 {
+  int seed = (time(nullptr));
+  srand(seed);
   int number_of_values = 0;
   cout << "Enter the number of values: ";
   cin >> number_of_values;
@@ -62,18 +58,15 @@ int main()
   input_random_values(my_values, number_of_values);
   selection_sort(my_values);
 
-  int odd_count;
-  int even_count;
+  int odd_count = 0;
+  int even_count = 0;
   count_even_odd_values(my_values, odd_count, even_count);
-  max_and_min_numbers (my_values);
   display (my_values, odd_count, even_count);
   return 0;
 }
 
 int get_rand_in_range(int low_limit, int high_limit)
 {
-  int seed = (time(nullptr));
-  srand(seed);
   int random_number = rand() % (high_limit - low_limit + 1) + low_limit;
   return random_number;
 }
@@ -108,18 +101,49 @@ void input_random_values(vector<int> &values, int size)
 
 void count_even_odd_values(vector<int> &values, int &odd_count, int &even_count)
 {
-
+  unsigned numbers;
+ for (unsigned looptimes = 0; looptimes < values.size(); looptimes++)
+ {
+   numbers = values.at (looptimes);
+   if (numbers % 2 == 0)
+   {
+     even_count++;
+   }
+   else
+   {
+     odd_count++;
+   }
+ }
 }
 
-void display(const vector<int> &values, int odd_count, int even_count)
+void display(const vector<int> &values, int &odd_count, int &even_count)
 {
   unsigned values_to_output = 0;
+  const unsigned MAX = 1;
+  const unsigned MIN = 100;
+  unsigned largest = MAX;
+  unsigned smallest = MIN;
+  cout << endl << "Generated values are: ";
+  for (unsigned looptimes = 0; looptimes < values.size() - 1; looptimes++)
+  {
+    cout << values.at(looptimes) << ", ";
+  }
+  cout << values.at(values.size() - 1) ;
   for(unsigned looptimes = 0; looptimes < values.size(); looptimes++)
   {
-    values_to_output = values.at(looptimes);
-  }
-  cout << "Generated values are: " << values_to_output
-       << "Number of odd values: " << odd_count
-       << "Number of even values: " << even_count;
 
+    values_to_output = values.at(looptimes);
+    if(values_to_output > largest && values_to_output < smallest)
+    {
+      smallest = values_to_output;
+    }
+    else
+    {
+      largest = values_to_output;
+    }
+  }
+  cout << endl << "Number of odd values: " << odd_count << endl
+       << "Number of even values: " << even_count << endl
+       << "The smallest value in the vector: " << smallest << endl
+       << "The largest value in the vector: " << largest << endl;
 }

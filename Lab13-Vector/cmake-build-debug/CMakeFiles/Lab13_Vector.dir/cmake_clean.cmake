@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lab13_Vector.dir/main.cpp.o"
+  "CMakeFiles/Lab13_Vector.dir/Sorting.cpp.o"
   "Lab13_Vector"
   "Lab13_Vector.pdb"
 )

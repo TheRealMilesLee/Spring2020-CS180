@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leemiles/Spring2020-CS180/Lab13-Vector/main.cpp">
+		<Unit filename="/Users/leemiles/Spring2020-CS180/Lab13-Vector/Sorting.cpp">
 			<Option target="Lab13_Vector"/>
 		</Unit>
 		<Unit filename="/Users/leemiles/Spring2020-CS180/Lab13-Vector/CMakeLists.txt">
