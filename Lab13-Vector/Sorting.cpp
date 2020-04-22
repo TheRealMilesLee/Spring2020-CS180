@@ -1,7 +1,6 @@
 //Hengyi Li
-//This program is to use vector variable and practice selection sort and
-// value type search by using functions.
-//This Program has been done by Hengyi Li on 9:30 PM, April 13, 2020.
+//This program is to use vector variable and practice selection sort and value type search by using functions.
+//This Program has been done by Hengyi Li on 4:40 PM, April 21, 2020.
 //Copyright @ 2020 Hengyi Li. All rights reserved.
 #include <iostream>
 #include <vector>
