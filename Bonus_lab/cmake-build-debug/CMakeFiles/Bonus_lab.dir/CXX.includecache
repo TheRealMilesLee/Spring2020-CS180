@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leemiles/Spring2020-CS180/Bonus_lab/Dynamically.cpp
+iostream
+-
+random
+-
+ctime
+-
+fstream
+-
+
