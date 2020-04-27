@@ -3,4 +3,4 @@ project(Bonus_lab)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Bonus_lab  Dynamically.cpp)
+add_executable(Bonus_lab  Bouns_2.cpp)

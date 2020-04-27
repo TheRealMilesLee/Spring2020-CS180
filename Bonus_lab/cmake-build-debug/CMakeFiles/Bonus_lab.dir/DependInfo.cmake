@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/leemiles/Spring2020-CS180/Bonus_lab/Dynamically.cpp" "/Users/leemiles/Spring2020-CS180/Bonus_lab/cmake-build-debug/CMakeFiles/Bonus_lab.dir/Dynamically.cpp.o"
+  "D:/Spring2020-CS180/Bonus_lab/Bouns_2.cpp" "D:/Spring2020-CS180/Bonus_lab/cmake-build-debug/CMakeFiles/Bonus_lab.dir/Bouns_2.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
