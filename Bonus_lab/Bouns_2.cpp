@@ -12,19 +12,18 @@ using namespace  std;
 
 /**
  * This function is to sort the vector
- * @param vector_values is the vector that need to sort
- * @param vector_string is the vector that in string to sort
+ * @param student_scores is the vector that need to sort
+ * @param student_names is the vector that in string to sort
  */
-void selection_sort(vector<unsigned> &vector_values, vector<int> &sort);
+void selection_sort(vector<unsigned> &student_scores, vector<string>
+  &student_names);
 
 int main()
 {
   ifstream infile;
-  infile.open("../student.txt");
+  infile.open("student.txt");
   vector<string> student_names;
   vector<unsigned> student_scores;
-  vector<int> sort;
-  vector<int>location;
   string names;
   unsigned scores;
   while (infile >> names)
@@ -33,46 +32,35 @@ int main()
     student_scores.push_back(scores);
     student_names.push_back(names);
   }
-  unsigned count = 0;
-  for (unsigned looptimes = 0; looptimes < student_scores.size(); looptimes++)
-  {
-    for (unsigned loop = 0; loop < student_scores.size(); loop++)
-    {
-      if (student_scores.at(looptimes) > student_scores.at(loop))
-      {
-        count++;
-      }
-    }
-    location.push_back(count);
-    count = 0;
-  }
 
-  selection_sort(student_scores, sort);
+  selection_sort(student_scores, student_names);
   for(unsigned looptimes = 0; looptimes < student_scores.size();
       looptimes++)
   {
-    cout << student_names.at(location.at(looptimes))
+    cout << student_names.at(looptimes)
          << student_scores.at(looptimes) << endl;
   }
   return 0;
 }
 
-void selection_sort(vector<unsigned> &vector_values, vector<int> &sort)
+void selection_sort(vector<unsigned> &student_scores, vector<string>
+  &student_names)
 {
-  size_t size = vector_values.size();
+  size_t size = student_scores.size();
   for(size_t select_indx = 0; select_indx < size - 1; select_indx++)
   {
-    int smallest_value = vector_values.at(select_indx);
+    int smallest_value = student_scores.at(select_indx);
     size_t smallest_indx = select_indx;
     for (size_t compare_indx = select_indx +1; compare_indx < size; compare_indx++)
     {
-      if(vector_values.at(compare_indx) < smallest_value)
+      if(student_scores.at(compare_indx) < smallest_value)
       {
-        smallest_value = vector_values.at(compare_indx);
+        smallest_value = student_scores.at(compare_indx);
         smallest_indx = compare_indx;
       }
     }
-    swap(vector_values.at(smallest_indx), vector_values.at(select_indx));
+    swap(student_scores.at(smallest_indx), student_scores.at(select_indx));
+    swap(student_names.at(smallest_indx),student_names.at(select_indx));
 
   }
 }

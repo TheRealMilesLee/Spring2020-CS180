@@ -44,6 +44,8 @@ int main()
     cout << array_values_vector.at(looptimes - 1) << " ";
   }
   cout << array_values_vector.at(0) << endl;
+  delete [] array_values;
+  return 0;
 }
 
 int get_rand_in_range(int low_limit, int high_limit)
