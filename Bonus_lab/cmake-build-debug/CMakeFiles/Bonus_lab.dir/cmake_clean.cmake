@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "Bonus_lab.exe"
-  "Bonus_lab.exe.manifest"
+  "Bonus_lab"
   "Bonus_lab.pdb"
-  "CMakeFiles/Bonus_lab.dir/Bouns_2.cpp.obj"
-  "libBonus_lab.dll.a"
+  "CMakeFiles/Bonus_lab.dir/Bouns_2.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

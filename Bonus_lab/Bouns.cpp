@@ -31,12 +31,12 @@ void selection_sort(vector<int> &vector_values);
 int main()
 {
  ofstream infile;
- infile.open("../random.txt");
+ infile.open("random.txt");
  write1000File(infile);
  infile.close();
 
  ifstream file;
- file.open("../random.txt");
+ file.open("random.txt");
  readSortDisplay(file);
  file.close();
  return 0;
@@ -64,7 +64,7 @@ void readSortDisplay(ifstream &file)
   }
   selection_sort(values);
   ofstream output;
-  output.open("../random.txt");
+  output.open("random.txt");
   for(unsigned looptimes = 0; looptimes< values.size() - 1; looptimes++)
   {
     output << values.at(looptimes) << " ";
