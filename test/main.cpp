@@ -2,42 +2,27 @@
 #include <vector>
 using namespace std;
 
-struct student_info
-{
-    string name;
-    unsigned id_number;
-    unsigned score;
-};
-void display_student_info(const student_info &st_one, const student_info
-&st_two);
+bool findMutipleValues(const vector<int> &all_values);
+
 int main()
 {
-  student_info st_one;
-  student_info st_two;
-
-  st_one.name = "Miles";
-  st_one.id_number = 1365353;
-  st_one.score = 100;
-
-  st_two.name = "Xu";
-  st_two.id_number = 101010102;
-  st_two.score = 99;
-
-  if (st_one.score == st_two.score && st_one.id_number == st_two.id_number
-  && st_one.name == st_two.name)
+  vector<int> all_values = {10, 2, 30, 40, 50};
+  findMutipleValues(all_values);
+  return 0;
+}
+bool findMutipleValues(const vector<int> &all_values)
+{
+  unsigned test = 0;
+  for(unsigned looptimes = 0; looptimes<all_values.size(); looptimes++)
   {
-    cout << "They equal" << endl;
+    test += all_values.at(looptimes) % 5;
+  }
+  if (test != 0)
+  {
+    return false;
   }
   else
   {
-    cout << "not equal" << endl;
+    return true;
   }
- display_student_info(st_one, st_two);
-}
-void display_student_info(const student_info &st_one, const student_info
-&st_two)
-{
-  cout << st_one.name << " " << st_one.id_number << " " << st_one.score
-       << endl
-       << st_two.name << " " << st_two.id_number << " " << st_two.score;
 }
