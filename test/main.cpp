@@ -1,28 +1,26 @@
 #include <iostream>
 #include <vector>
-using namespace std;
 
-bool findMutipleValues(const vector<int> &all_values);
+using namespace std;
+const int SIZE = 10;
+void string_reverse(const char line[],char reverse_string[]);
 
 int main()
 {
-  vector<int> all_values = {10, 2, 30, 40, 50};
-  findMutipleValues(all_values);
+  const char line[SIZE] = {'a','b','c'};
+  char reverse_string[SIZE];
+  string_reverse(line,reverse_string);
   return 0;
 }
-bool findMutipleValues(const vector<int> &all_values)
+void string_reverse(const char line[],char reverse_string[])
 {
-  unsigned test = 0;
-  for(unsigned looptimes = 0; looptimes<all_values.size(); looptimes++)
-  {
-    test += all_values.at(looptimes) % 5;
-  }
-  if (test != 0)
-  {
-    return false;
-  }
-  else
-  {
-    return true;
-  }
+ for(int indx = SIZE, looptimes = 0; looptimes < SIZE; looptimes++)
+ {
+   reverse_string[indx] = line[looptimes];
+   indx--;
+ }
+ for(int looptimes = 0; looptimes <= SIZE; looptimes++)
+ {
+   cout << reverse_string[looptimes];
+ }
 }
