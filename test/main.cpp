@@ -1,26 +1,31 @@
+
 #include <iostream>
-#include <vector>
+#include <string>
 
 using namespace std;
-const int SIZE = 10;
-void string_reverse(const char line[],char reverse_string[]);
+
+struct Movie
+{
+    string title;
+    double run_time;
+    int release_year;
+};
+
+string to_string(const Movie &movie);
 
 int main()
 {
-  const char line[SIZE] = {'a','b','c'};
-  char reverse_string[SIZE];
-  string_reverse(line,reverse_string);
+  int number = 6;
+  int x = 20;
+  x /= --number;
+  number *= x ++;
+  cout << x <<" " << number << endl;
   return 0;
 }
-void string_reverse(const char line[],char reverse_string[])
+string to_string(const Movie &movie)
 {
- for(int indx = SIZE, looptimes = 0; looptimes < SIZE; looptimes++)
- {
-   reverse_string[indx] = line[looptimes];
-   indx--;
- }
- for(int looptimes = 0; looptimes <= SIZE; looptimes++)
- {
-   cout << reverse_string[looptimes];
- }
+  string result = movie.title + "  " + to_string(movie.run_time) + "  " +
+                  to_string(movie.release_year);
+  return result;
 }
+
