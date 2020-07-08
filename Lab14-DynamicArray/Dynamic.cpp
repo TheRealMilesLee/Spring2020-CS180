@@ -7,6 +7,8 @@
 #include <vector>
 #include <time.h>
 #include <stdlib.h>
+#include <thread>
+
 
 using namespace std;
 
@@ -24,22 +26,29 @@ void selection_sort(vector<int> & vector_values);
  */
 int get_rand_in_range(int low_limit, int high_limit);
 
+/**
+ * This function is used to get the input from the user
+ * @param number_of_values is the total number of the array values
+ * @param lowest_limit is the lowest limit that random function generated
+ * @param highest_limit is the highest limit that function generated
+ */
+void user_input(int number_of_values, int lowest_limit, int highest_limit);
+
 int main()
 {
+  //Initialize
   const unsigned MAX = 1;
   const unsigned MIN = 100;
   int seed = (time(nullptr));
   srand(seed);
   int number_of_values = 0;
-  cout << "Enter the number of values: ";
-  cin >> number_of_values;
   int lowest_limit;
-  cout << "Enter the lowest limit: ";
-  cin >> lowest_limit;
   int highest_limit;
-  cout << "Enter the highest limit: ";
-  cin >> highest_limit;
 
+  //Get user input
+  user_input(number_of_values,lowest_limit,highest_limit);
+
+  //Dynamic Array generated
   vector<int> array_values_vector;
   int *array_values = new int[number_of_values];
   for (unsigned looptimes = 0; looptimes < number_of_values; looptimes++)
@@ -88,6 +97,16 @@ int main()
   return 0;
 }
 
+
+void user_input(int number_of_values, int lowest_limit, int highest_limit)
+{
+  cout << "Enter the number of values: ";
+  cin >> number_of_values;
+  cout << "Enter the lowest limit: ";
+  cin >> lowest_limit;
+  cout << "Enter the highest limit: ";
+  cin >> highest_limit;
+}
 void selection_sort(vector<int> & vector_values)
 {
   size_t size = vector_values.size();
