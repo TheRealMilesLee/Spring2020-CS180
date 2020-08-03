@@ -39,11 +39,11 @@ int main()
   //Initialize
   const unsigned MAX = 1;
   const unsigned MIN = 100;
-  int seed = (time(nullptr));
+  unsigned seed = (time(nullptr));
   srand(seed);
-  int number_of_values = 0;
-  int lowest_limit;
-  int highest_limit;
+  unsigned number_of_values = 0;
+  unsigned lowest_limit;
+  unsigned highest_limit;
 
   //Get user input
   user_input(number_of_values,lowest_limit,highest_limit);
